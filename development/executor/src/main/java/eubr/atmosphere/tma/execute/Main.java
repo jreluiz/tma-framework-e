@@ -16,6 +16,7 @@ import eubr.atmosphere.tma.data.Action;
 import eubr.atmosphere.tma.data.ActionPlan;
 import eubr.atmosphere.tma.data.Actuator;
 import eubr.atmosphere.tma.data.Configuration;
+import eubr.atmosphere.tma.entity.qualitymodel.ActionRule;
 import eubr.atmosphere.tma.execute.database.ActionManager;
 import eubr.atmosphere.tma.execute.database.ActionPlanManager;
 import eubr.atmosphere.tma.execute.database.ActuatorManager;
@@ -71,16 +72,20 @@ public class Main
     }
 
     private static void handlePlan(ConsumerRecord<Long, String> record) {
-        LOGGER.info(record.toString());
+        
+    	LOGGER.info(record.toString());
+        
         String stringPlanId = record.value();
         Integer planId = Integer.parseInt(stringPlanId);
-        if (planId == -1)
+        
+        if (planId == -1) // TODO Verify if the plan status is TO_DO
             return;
+        
         List<ActionPlan> actionPlanList = ActionPlanManager.obtainActionPlanByPlanId(planId);
 
         // TODO Change the status of the plan to in progress
         for (ActionPlan actionPlan: actionPlanList) {
-            Action action = ActionManager.obtainActionById(actionPlan.getActionId());
+            ActionRule action = ActionManager.obtainActionById(actionPlan.getActionId());
             List<Configuration> configList =
                     ConfigurationManager.obtainConfiguration(planId, actionPlan.getActionId());
             for (Configuration config: configList) {

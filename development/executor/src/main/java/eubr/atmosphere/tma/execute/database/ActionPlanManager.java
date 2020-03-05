@@ -6,8 +6,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import eubr.atmosphere.tma.data.ActionPlan;
 import eubr.atmosphere.tma.database.DatabaseManager;
+import eubr.atmosphere.tma.entity.qualitymodel.ActionPlan;
 
 public class ActionPlanManager {
 
@@ -15,9 +15,7 @@ public class ActionPlanManager {
         // TODO: This method can go to TMA-K component
         List<ActionPlan> actionPlanList = new ArrayList<ActionPlan>();
 
-        String sql = "select actionId, executionOrder from ActionPlan "
-                + "where "
-                + "planId = ? ;";
+        String sql = "select actionId, executionOrder from ActionPlan where planId = ? ;";
         
         try {
             PreparedStatement ps = DatabaseManager.getConnectionInstance().prepareStatement(sql);

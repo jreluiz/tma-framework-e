@@ -20,9 +20,9 @@ import org.slf4j.LoggerFactory;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
-import eubr.atmosphere.tma.data.Action;
-import eubr.atmosphere.tma.data.Actuator;
-import eubr.atmosphere.tma.data.Configuration;
+import eubr.atmosphere.tma.entity.qualitymodel.ActionRule;
+import eubr.atmosphere.tma.entity.qualitymodel.Actuator;
+import eubr.atmosphere.tma.entity.qualitymodel.Configuration;
 
 public class RestServices {
 
@@ -30,7 +30,7 @@ public class RestServices {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RestServices.class);
 
-    public static void requestRestService(Actuator actuator, Action action) throws IOException, InvalidKeyException, NoSuchAlgorithmException, SignatureException {
+    public static void requestRestService(Actuator actuator, ActionRule action) throws IOException, InvalidKeyException, NoSuchAlgorithmException, SignatureException {
         // Reference: https://www.baeldung.com/java-http-request
         String jsonPayload = getJsonObject(action);
         LOGGER.info(jsonPayload);
@@ -87,20 +87,20 @@ public class RestServices {
         in.close();
     }
 
-    private static String getJsonObject(Action action) {
+    private static String getJsonObject(ActionRule actionRule) {
         JsonObject jsonObject = new JsonObject();
         JsonArray configurationJson = new JsonArray();
-        for (Configuration config : action.getConfigurationList()) {
+        for (Configuration config : actionRule.getConfigurations()) {
             JsonObject configJson = new JsonObject();
             configJson.addProperty("keyName", config.getKeyName());
             configJson.addProperty("value", config.getValue());
             configurationJson.add(configJson);
         }
 
-        jsonObject.addProperty("resourceId", action.getResourceId());
+        jsonObject.addProperty("resourceId", actionRule.getResource().getResourceId());
         jsonObject.addProperty("messageId", messageId++);
         jsonObject.addProperty("timestamp", Calendar.getInstance().getTimeInMillis());
-        jsonObject.addProperty("action", action.getAction());
+        jsonObject.addProperty("action", actionRule.getActionName());
         jsonObject.add("configuration", configurationJson);
         return jsonObject.toString();
     }

@@ -12,13 +12,12 @@ import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import eubr.atmosphere.tma.data.Action;
-import eubr.atmosphere.tma.data.ActionPlan;
-import eubr.atmosphere.tma.data.Actuator;
-import eubr.atmosphere.tma.data.Configuration;
+import eubr.atmosphere.tma.entity.qualitymodel.ActionPlan;
 import eubr.atmosphere.tma.entity.qualitymodel.ActionRule;
-import eubr.atmosphere.tma.execute.database.ActionManager;
+import eubr.atmosphere.tma.entity.qualitymodel.Actuator;
+import eubr.atmosphere.tma.entity.qualitymodel.Configuration;
 import eubr.atmosphere.tma.execute.database.ActionPlanManager;
+import eubr.atmosphere.tma.execute.database.ActionRuleManager;
 import eubr.atmosphere.tma.execute.database.ActuatorManager;
 import eubr.atmosphere.tma.execute.database.ConfigurationManager;
 import eubr.atmosphere.tma.execute.utils.PropertiesManager;
@@ -84,23 +83,27 @@ public class Main
         List<ActionPlan> actionPlanList = ActionPlanManager.obtainActionPlanByPlanId(planId);
 
         // TODO Change the status of the plan to in progress
+        
         for (ActionPlan actionPlan: actionPlanList) {
-            ActionRule action = ActionManager.obtainActionById(actionPlan.getActionId());
-            List<Configuration> configList =
-                    ConfigurationManager.obtainConfiguration(planId, actionPlan.getActionId());
+            
+        	ActionRule actionRule = ActionRuleManager.obtainActionRuleById(actionPlan.getId().getActionRuleId());
+            
+            List<Configuration> configList = ConfigurationManager.obtainConfiguration(planId, actionRule.getActionRuleId());
             for (Configuration config: configList) {
-                action.addConfiguration(config);
+                actionRule.addConfiguration(config);
             }
 
             // TODO Change the status of the action to in progress
-            Actuator actuator = ActuatorManager.obtainActuatorByAction(action);
+            
+            Actuator actuator = ActuatorManager.obtainActuatorByAction(actionRule);
             if (actuator != null) {
-                act(actuator, action);
+                act(actuator, actionRule);
                 // TODO Change the status of the action to completed
             } else {
-                LOGGER.warn("Actuator not found: (ActuatorId = {})", action.getActuatorId());
+                LOGGER.warn("Actuator not found: (ActuatorId = {})", actionRule.getActuator().getActuatorId());
             }
         }
+        
         // TODO Change the status of the plan to completed
     }
 
@@ -112,7 +115,7 @@ public class Main
         }
     }
 
-    private static void act(Actuator actuator, Action action) {
+    private static void act(Actuator actuator, ActionRule action) {
         // Request the service from the actuator to perform the adaptation
         try {
             RestServices.requestRestService(actuator, action);

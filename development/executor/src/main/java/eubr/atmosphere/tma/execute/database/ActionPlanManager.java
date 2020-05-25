@@ -8,14 +8,14 @@ import java.util.List;
 
 import eubr.atmosphere.tma.database.DatabaseManager;
 import eubr.atmosphere.tma.entity.qualitymodel.ActionPlan;
+import eubr.atmosphere.tma.entity.qualitymodel.Status;
 
 public class ActionPlanManager {
 
     public static List<ActionPlan> obtainActionPlanByPlanId(int planId) {
-        // TODO: This method can go to TMA-K component
         List<ActionPlan> actionPlanList = new ArrayList<ActionPlan>();
 
-        String sql = "select actionId, executionOrder from ActionPlan where planId = ? ;";
+        String sql = "select actionRuleId, executionOrder from ActionPlan where planId = ? ;";
         
         try {
             PreparedStatement ps = DatabaseManager.getConnectionInstance().prepareStatement(sql);
@@ -23,10 +23,10 @@ public class ActionPlanManager {
             ResultSet rs = DatabaseManager.executeQuery(ps);
 
             while (rs.next()) {
-                int actionId = (int) rs.getObject("actionId");
+                int actionRuleId = (int) rs.getObject("actionRuleId");
                 int executionOrder = (int) rs.getObject("executionOrder");
                 
-                ActionPlan actionPlan = new ActionPlan(planId, actionId, executionOrder);
+                ActionPlan actionPlan = new ActionPlan(planId, actionRuleId, executionOrder, Status.BUILDING.ordinal());
                 actionPlanList.add(actionPlan);
             }
         } catch (SQLException e) {

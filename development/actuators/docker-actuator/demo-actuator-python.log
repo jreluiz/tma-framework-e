@@ -1,0 +1,353 @@
+2020-06-29 23:48:15,895 - __main__:83 [INFO    ] Initializing Docker Actuator
+2020-06-29 23:48:15,900 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-06-29 23:48:15,900 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-06-29 23:48:16,057 - __main__:83 [INFO    ] Initializing Docker Actuator
+2020-06-29 23:48:16,061 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-06-29 23:48:16,302 - werkzeug:113 [INFO    ]  * Debugger PIN: 252-590-625
+2020-06-29 23:49:05,784 - werkzeug:113 [INFO    ] 127.0.0.1 - - [29/Jun/2020 23:49:05] "[33mGET / HTTP/1.1[0m" 404 -
+2020-06-29 23:49:06,135 - werkzeug:113 [INFO    ] 127.0.0.1 - - [29/Jun/2020 23:49:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-07-01 23:16:51,457 - __main__:95 [INFO    ] Initializing Docker Actuator
+2020-07-01 23:16:51,461 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-01 23:16:51,462 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-01 23:16:51,598 - __main__:95 [INFO    ] Initializing Docker Actuator
+2020-07-01 23:16:51,601 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-01 23:16:51,602 - werkzeug:113 [INFO    ]  * Debugger PIN: 663-135-205
+2020-07-01 23:21:35,462 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:21:35] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:28:36,383 - __main__:95 [INFO    ] Initializing Docker Actuator
+2020-07-01 23:28:36,389 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-01 23:28:36,390 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-01 23:28:36,891 - __main__:95 [INFO    ] Initializing Docker Actuator
+2020-07-01 23:28:36,896 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-01 23:28:36,897 - werkzeug:113 [INFO    ]  * Debugger PIN: 663-135-205
+2020-07-01 23:29:38,763 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:29:38] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:29:43,880 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:29:43] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:30:01,077 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:30:01] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:30:21,099 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:30:21] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:30:43,175 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:30:43] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:31:04,234 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:31:04] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:31:25,341 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:31:25] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:31:46,403 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:31:46] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:32:07,461 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:32:07] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:32:28,540 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:32:28] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:32:41,583 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:32:41] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:33:02,685 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:33:02] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:43:31,943 - __main__:96 [INFO    ] Initializing Docker Actuator
+2020-07-01 23:43:31,949 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-01 23:43:31,950 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-01 23:43:32,084 - __main__:96 [INFO    ] Initializing Docker Actuator
+2020-07-01 23:43:32,088 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-01 23:43:32,089 - werkzeug:113 [INFO    ]  * Debugger PIN: 663-135-205
+2020-07-01 23:44:31,085 - __main__:96 [INFO    ] Initializing Docker Actuator
+2020-07-01 23:44:31,088 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-01 23:44:31,089 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-01 23:44:31,227 - __main__:96 [INFO    ] Initializing Docker Actuator
+2020-07-01 23:44:31,230 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-01 23:44:31,231 - werkzeug:113 [INFO    ]  * Debugger PIN: 663-135-205
+2020-07-01 23:46:04,050 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:46:04] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:46:25,118 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:46:25] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:46:46,180 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:46:46] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:47:07,246 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:47:07] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:47:20,935 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:47:20] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:47:50,004 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:47:50] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:48:03,057 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:48:03] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:48:24,118 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:48:24] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:48:45,176 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:48:45] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:49:06,270 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:49:06] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:49:27,330 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:49:27] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:49:40,830 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:49:40] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:50:15,860 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-01 23:50:15,863 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-01 23:50:15,863 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-01 23:50:16,001 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-01 23:50:16,004 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-01 23:50:16,005 - werkzeug:113 [INFO    ]  * Debugger PIN: 663-135-205
+2020-07-01 23:50:24,140 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:50:24] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:50:45,678 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:50:45] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:51:07,232 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:51:07] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:51:21,101 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:51:21] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:51:50,184 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:51:50] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:52:11,231 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:52:11] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:52:32,315 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:52:32] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:52:45,374 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:52:45] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-01 23:58:49,368 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-01 23:58:49,374 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-01 23:58:49,375 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-01 23:58:49,710 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-01 23:58:49,761 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-01 23:58:49,770 - werkzeug:113 [INFO    ]  * Debugger PIN: 663-135-205
+2020-07-01 23:59:55,603 - werkzeug:113 [INFO    ] 192.168.0.142 - - [01/Jul/2020 23:59:55] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:00:02,076 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:00:02] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:09:43,964 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 00:09:43,982 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 00:09:43,992 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 00:09:44,455 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 00:09:44,460 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 00:09:44,460 - werkzeug:113 [INFO    ]  * Debugger PIN: 663-135-205
+2020-07-02 00:10:48,382 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:10:48] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:11:01,947 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:11:01] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:11:20,895 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:11:20] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:18:28,713 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 00:18:28,730 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 00:18:28,731 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 00:18:29,054 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 00:18:29,060 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 00:18:29,060 - werkzeug:113 [INFO    ]  * Debugger PIN: 663-135-205
+2020-07-02 00:19:31,201 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:19:31] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:25:42,556 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 00:25:42,563 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 00:25:42,563 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 00:25:42,885 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 00:25:42,891 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 00:25:42,892 - werkzeug:113 [INFO    ]  * Debugger PIN: 663-135-205
+2020-07-02 00:26:46,136 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:26:46] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:27:02,032 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:27:02] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:27:20,814 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:27:20] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:27:40,888 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:27:40] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:28:05,957 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:28:05] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:28:27,038 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:28:27] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:28:48,143 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:28:48] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:29:01,202 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:29:01] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:29:22,272 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:29:22] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:29:43,337 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:29:43] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:30:04,566 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:30:04] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:30:26,142 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:30:26] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:30:47,642 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:30:47] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:31:01,439 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:31:01] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:31:23,002 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:31:23] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:31:44,548 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:31:44] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:32:11,628 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:32:11] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 00:33:53,999 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 00:33:53] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:28:41,527 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 20:28:41,534 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 20:28:41,535 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 20:28:42,110 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 20:28:42,118 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 20:28:42,119 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 20:29:55,633 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:29:55] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:29:55,634 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:29:55] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:30:25,956 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:30:25] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:30:25,968 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:30:25] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:30:47,031 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:30:47] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:31:08,107 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:31:08] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:31:29,187 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:31:29] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:31:42,249 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:31:42] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:32:03,310 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:32:03] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:32:24,370 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:32:24] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:32:45,661 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:32:45] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:33:07,354 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:33:07] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:33:21,051 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:33:21] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:33:42,546 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:33:42] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:34:04,074 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:34:04] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:34:25,654 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:34:25] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:36:49,820 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 20:36:49,828 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 20:36:49,830 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 20:36:50,373 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 20:36:50,379 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 20:36:50,380 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 20:38:22,142 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:38:22] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:39:17,618 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 20:39:17,623 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 20:39:17,624 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 20:39:18,156 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 20:39:18,161 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 20:39:18,161 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 20:40:41,208 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:40:41] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:40:46,281 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:40:46] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:41:01,027 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:41:01] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:41:21,123 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:41:21] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:43:09,371 - werkzeug:113 [INFO    ]  * Detected change in '/home/jorge/workspace/sts/tma-framework-e/development/actuators/docker-actuator/docker-actuator.py', reloading
+2020-07-02 20:43:09,432 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 20:43:10,228 - __main__:96 [INFO    ] Initializing Docker Actuator
+2020-07-02 20:43:10,237 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 20:43:10,238 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 20:50:51,670 - werkzeug:113 [INFO    ]  * Detected change in '/home/jorge/workspace/sts/tma-framework-e/development/actuators/docker-actuator/docker-actuator.py', reloading
+2020-07-02 20:50:51,699 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 20:52:11,055 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 20:52:11,059 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 20:52:11,060 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 20:52:11,207 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 20:52:11,210 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 20:52:11,210 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 20:53:53,711 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:53:53] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:53:58,775 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:53:58] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:54:03,829 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:54:03] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:54:24,884 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:54:24] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:54:45,944 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:54:45] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:55:21,838 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 20:55:21,843 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 20:55:21,845 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 20:55:22,409 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 20:55:22,414 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 20:55:22,414 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 20:56:30,681 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:56:30] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:56:31,504 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:56:31] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:56:31,513 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:56:31] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:57:23,146 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:57:23] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:57:23,791 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:57:23] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:57:24,267 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:57:24] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:58:00,130 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:58:00] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:58:16,258 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:58:16] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:58:30,136 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:58:30] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:58:51,229 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:58:51] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:59:04,277 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:59:04] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 20:59:25,325 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 20:59:25] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:00:09,277 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:00:09] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:00:12,423 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:00:12] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:00:33,483 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:00:33] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:00:46,528 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:00:46] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:01:25,830 - werkzeug:113 [INFO    ]  * Detected change in '/home/jorge/.virtualenvs/docker-actuator/lib/python3.7/site-packages/tmalibrary/actuator/KeyManager.py', reloading
+2020-07-02 21:01:25,877 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 21:01:26,501 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:01:26,506 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 21:01:26,507 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 21:01:48,842 - werkzeug:113 [INFO    ]  * Detected change in '/home/jorge/.virtualenvs/docker-actuator/lib/python3.7/site-packages/tmalibrary/actuator/KeyManager.py', reloading
+2020-07-02 21:01:48,871 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 21:01:49,464 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:01:49,469 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 21:01:49,470 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 21:02:17,834 - werkzeug:113 [INFO    ]  * Detected change in '/home/jorge/.virtualenvs/docker-actuator/lib/python3.7/site-packages/tmalibrary/actuator/KeyManager.py', reloading
+2020-07-02 21:02:17,880 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 21:02:18,440 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:02:18,446 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 21:02:18,446 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 21:03:51,276 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:03:51,281 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 21:03:51,282 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 21:03:51,914 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:03:51,919 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 21:03:51,920 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 21:05:16,535 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:05:16] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:05:30,726 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:05:30] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:05:51,779 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:05:51] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:06:04,825 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:06:04] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:06:25,878 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:06:25] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:06:46,970 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:06:46] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:07:08,036 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:07:08] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:07:29,079 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:07:29] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:07:42,397 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:07:42] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:08:04,065 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:08:04] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:08:25,773 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:08:25] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:08:47,502 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:08:47] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:09:08,544 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:09:08] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:09:29,602 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:09:29] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:09:50,667 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:09:50] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:10:11,760 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:10:11] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:10:32,803 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:10:32] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:10:45,885 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:10:45] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:11:06,980 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:11:06] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:11:28,063 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:11:28] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:11:49,146 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:11:49] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:12:02,195 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:12:02] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:12:23,986 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:12:23] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:27:34,770 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:27:34,774 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 21:27:34,775 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 21:27:34,918 - __main__:98 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:27:34,921 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 21:27:34,921 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 21:27:41,594 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:27:41] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:28:02,981 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:28:02] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:28:24,427 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:28:24] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:28:42,558 - werkzeug:113 [INFO    ]  * Detected change in '/home/jorge/workspace/sts/tma-framework-e/development/actuators/docker-actuator/docker-actuator.py', reloading
+2020-07-02 21:28:42,606 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 21:28:42,771 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:28:42,774 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 21:28:42,775 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 21:28:48,864 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:28:48,870 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 21:28:48,871 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 21:28:49,456 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:28:49,461 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 21:28:49,462 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 21:29:07,314 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:29:07] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:29:20,633 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:29:20] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:29:42,134 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:29:42] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:30:03,629 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:30:03] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:30:25,022 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:30:25] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:30:46,455 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:30:46] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:31:07,495 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:31:07] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:31:28,563 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:31:28] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:31:49,603 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:31:49] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:32:10,694 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:32:10] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:32:31,747 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:32:31] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:32:44,841 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:32:44] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:33:05,907 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:33:05] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:33:26,962 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:33:26] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:33:48,053 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:33:48] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:34:09,149 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:34:09] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:34:22,203 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:34:22] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:34:43,244 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:34:43] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:35:04,295 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:35:04] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:41:28,885 - werkzeug:113 [INFO    ]  * Detected change in '/home/jorge/workspace/sts/tma-framework-e/development/actuators/docker-actuator/docker-actuator.py', reloading
+2020-07-02 21:41:28,943 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 21:41:29,530 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:41:29,535 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 21:41:29,535 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 21:46:32,428 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:46:32,433 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 21:46:32,435 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 21:46:33,006 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 21:46:33,011 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 21:46:33,011 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 21:48:05,812 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:48:05] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:48:05,829 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:48:05] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:48:05,832 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:48:05] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:48:42,962 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:48:42] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:48:42,979 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:48:42] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:49:13,199 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:49:13] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:49:13,201 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:49:13] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:49:25,229 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:49:25] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:49:46,784 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:49:46] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:50:08,465 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:50:08] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:50:22,033 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:50:22] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:50:43,680 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:50:43] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:51:05,286 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:51:05] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:51:26,940 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:51:26] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:51:48,652 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:51:48] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:52:02,342 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:52:02] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:52:24,082 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:52:24] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:52:45,992 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:52:45] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:53:07,719 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:53:07] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:53:28,770 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:53:28] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:53:49,834 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:53:49] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:54:10,903 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:54:10] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 21:54:31,967 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 21:54:31] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:05:53,434 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 22:05:53,439 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 22:05:53,439 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 22:05:53,631 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 22:05:53,634 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 22:05:53,635 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 22:06:29,224 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:06:29] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:06:50,429 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:06:50] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:07:03,679 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:07:03] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:07:24,842 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:07:24] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:07:46,052 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:07:46] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:08:07,954 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:08:07] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:08:29,124 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:08:29] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:08:50,267 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:08:50] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:12:47,794 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 22:12:47,798 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 22:12:47,798 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 22:12:47,954 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 22:12:47,958 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 22:12:47,958 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 22:12:48,968 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:12:48] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:13:10,068 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:13:10] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:13:31,164 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:13:31] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:13:44,249 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:13:44] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:15:18,370 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 22:15:18,390 - werkzeug:113 [INFO    ]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2020-07-02 22:15:18,391 - werkzeug:113 [INFO    ]  * Restarting with stat
+2020-07-02 22:15:18,970 - __main__:97 [INFO    ] Initializing Docker Actuator
+2020-07-02 22:15:18,989 - werkzeug:113 [WARNING ]  * Debugger is active!
+2020-07-02 22:15:18,989 - werkzeug:113 [INFO    ]  * Debugger PIN: 272-930-922
+2020-07-02 22:15:35,600 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:15:35] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:15:42,145 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:15:42] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:16:01,086 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:16:01] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:16:21,095 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:16:21] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:16:41,295 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:16:41] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:17:02,464 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:17:02] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:17:23,637 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:17:23] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -
+2020-07-02 22:17:44,786 - werkzeug:113 [INFO    ] 192.168.0.142 - - [02/Jul/2020 22:17:44] "[35m[1mPOST /docker/act HTTP/1.1[0m" 500 -

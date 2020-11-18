@@ -10,10 +10,10 @@ import jep.Jep;
 import jep.JepException;
 
 @RestController
-@RequestMapping("/docker")
-public class ActuatorAPI implements Actuator {
+@RequestMapping("/run_container")
+public class DockerActuatorReliability implements Actuator {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(ActuatorAPI.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(DockerActuatorReliability.class);
 
     @RequestMapping("/initialize")
     public void initialize() {
@@ -27,8 +27,8 @@ public class ActuatorAPI implements Actuator {
         String action = actuatorPayload.getAction();
         try (@SuppressWarnings("deprecation")
 		Jep jep = new Jep(false,
-				"/home/jorge/workspace/sts/tma-framework-e/development/actuators/demo-actuator-java/src/main/java/eubr/atmosphere/tma/actuator/docker-actuator.py")) {
-			jep.runScript("docker-actuator.py");
+				"/home/jorge/workspace/sts/tma-framework-e/development/actuators/demo-actuator-java/src/main/java/eubr/atmosphere/tma/actuator/run-container.py")) {
+			jep.runScript("run-container.py");
 			Object ret = jep.invoke("execute_action", action);
 			if ((Boolean) ret) {
 				System.out.println("--- Ok!");	

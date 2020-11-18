@@ -39,24 +39,24 @@ def execute_action(action):
     try:
         container = get_container("priva")
         if container:
-            if action == "INCREASE_MEM":
+            if action == "increase_mem":
                 print("Executing memory increase")
                 mem_limit = int(get_current_memory_limit("priva")) + 100
-                if mem_limit > 800:
+                if mem_limit > 2500:
                     print("Memoria maxima atingida!")
                 else:
                     container.update(mem_limit="{}m".format(mem_limit))
-            elif action == "INCREASE_CPU":
+            elif action == "increase_cpu":
                 print("Executing cpu increase")
                 container.update(cpuset_cpus="0-1")
-            elif action == "DECREASE_MEM":
+            elif action == "decrease_mem":
                 print("Executing memory decrease")
                 mem_limit = int(get_current_memory_limit("priva")) - 100
                 if mem_limit < 100:
                     print("Memoria minima atingida!")
                 else:
                     container.update(mem_limit="{}m".format(mem_limit))
-            elif action == "DECREASE_CPU":
+            elif action == "decrease_cpu":
                 print("Executing cpu decrease")
                 container.update(cpuset_cpus="0")
         else:

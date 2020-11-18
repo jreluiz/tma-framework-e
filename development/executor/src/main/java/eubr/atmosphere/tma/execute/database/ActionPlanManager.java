@@ -8,7 +8,7 @@ import java.util.List;
 
 import eubr.atmosphere.tma.database.DatabaseManager;
 import eubr.atmosphere.tma.entity.qualitymodel.ActionPlan;
-import eubr.atmosphere.tma.entity.qualitymodel.Status;
+import eubr.atmosphere.tma.entity.qualitymodel.PlanStatus;
 
 public class ActionPlanManager {
 
@@ -26,7 +26,7 @@ public class ActionPlanManager {
                 int actionRuleId = (int) rs.getObject("actionRuleId");
                 int executionOrder = (int) rs.getObject("executionOrder");
                 
-                ActionPlan actionPlan = new ActionPlan(planId, actionRuleId, executionOrder, Status.BUILDING.ordinal());
+                ActionPlan actionPlan = new ActionPlan(planId, actionRuleId, executionOrder, PlanStatus.BUILDING.ordinal());
                 actionPlanList.add(actionPlan);
             }
         } catch (SQLException e) {

@@ -13,13 +13,17 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import eubr.atmosphere.tma.entity.qualitymodel.ActionPlan;
+import eubr.atmosphere.tma.entity.qualitymodel.ActionPlanStatus;
 import eubr.atmosphere.tma.entity.qualitymodel.ActionRule;
 import eubr.atmosphere.tma.entity.qualitymodel.Actuator;
 import eubr.atmosphere.tma.entity.qualitymodel.Configuration;
+import eubr.atmosphere.tma.entity.qualitymodel.Plan;
+import eubr.atmosphere.tma.entity.qualitymodel.PlanStatus;
 import eubr.atmosphere.tma.execute.database.ActionPlanManager;
 import eubr.atmosphere.tma.execute.database.ActionRuleManager;
 import eubr.atmosphere.tma.execute.database.ActuatorManager;
 import eubr.atmosphere.tma.execute.database.ConfigurationManager;
+import eubr.atmosphere.tma.execute.database.PlanManager;
 import eubr.atmosphere.tma.execute.utils.PropertiesManager;
 import eubr.atmosphere.tma.execute.utils.RestServices;
 
@@ -75,13 +79,17 @@ public class Main
         
         String stringPlanId = record.value();
         Integer planId = Integer.parseInt(stringPlanId);
+        Plan plan = PlanManager.obtainPlanByPlanId(planId);
         
-        if (planId == -1) // TODO Verify if the plan status is TO_DO
+        // Verify if the plan status is READY_TO_RUN
+        if (planId == -1 || PlanStatus.valueOf(plan.getStatus()) != PlanStatus.READY_TO_RUN) {
             return;
+        }
         
         List<ActionPlan> actionPlanList = ActionPlanManager.obtainActionPlanByPlanId(planId);
 
-        // TODO Change the status of the plan to in progress
+        // Change the status of the plan to IN_PROGRESS
+        PlanManager.updatePlanStatusByPlanId(plan, PlanStatus.IN_PROGRESS.ordinal());
         
         for (ActionPlan actionPlan: actionPlanList) {
             
@@ -92,18 +100,21 @@ public class Main
                 actionRule.addConfiguration(config);
             }
 
-            // TODO Change the status of the action to in progress
+            // Change the status of the action to in RUNNING
+            actionPlan.setStatus(ActionPlanStatus.RUNNING.ordinal());
             
             Actuator actuator = ActuatorManager.obtainActuatorByAction(actionRule);
             if (actuator != null) {
                 act(actuator, actionRule);
-                // TODO Change the status of the action to completed
+                // Change the status of the action to EXECUTED
+                actionPlan.setStatus(ActionPlanStatus.EXECUTED.ordinal());
             } else {
                 LOGGER.warn("Actuator not found: (ActuatorId = {})", actionRule.getActuator().getActuatorId());
             }
         }
         
-        // TODO Change the status of the plan to completed
+        // Change the status of the plan COMPLETED
+        PlanManager.updatePlanStatusByPlanId(plan, PlanStatus.COMPLETED.ordinal());
     }
 
     private static void sleep(int millis) {
